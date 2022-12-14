@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * print_times_table -a code that prints time table of the output starting with 0.
- * @n: the value of timetable
+ * print_times_table - print a time table
+ * @n: the value to be printed
  */
+
 void print_times_table(int n)
 {
 	int num, mult, prod;
