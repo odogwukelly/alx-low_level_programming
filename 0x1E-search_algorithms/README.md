@@ -82,17 +82,16 @@
 ### 6. Big O #4
 + 6-O: Text file containing the space complexity of the following algorithm:
 
-	
 	int **allocate_map(int n, int m)
 	{
-		int **map;
+	    int **map;
 	
-		map = malloc(sizeof(int *) * n);
-		for (size_t i = 0; i < n; i++)
-		{
-			map[i] = malloc(sizeof(int) * m);
-				}
-				return (map);
+	    map = malloc(sizeof(int *) * n);
+	    for (size_t i = 0; i < n; i++)
+	    {
+		map[i] = malloc(sizeof(int) * m);
+			}
+			return (map);
 	}
 
 ### 7. Jump search
