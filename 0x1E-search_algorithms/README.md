@@ -81,7 +81,7 @@
 
 ### 6. Big O #4
 + 6-O: Text file containing the space complexity of the following algorithm:
-	
+
 	
 	int **allocate_map(int n, int m)
 	{
@@ -94,7 +94,7 @@
 				}
 				return (map);
 	}
-	
+
 ### 7. Jump search
 + 100-jump.c: C function that searches for a value in a sorted array of integers using jump search.
 + Uses the square root of the size of the array as the jump step.
