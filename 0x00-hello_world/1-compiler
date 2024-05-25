@@ -1,2 +1,8 @@
-#!/bin/bash
-gcc -c $CFILE
+#!/bin/bash  # This line tells the system to use the Bash interpreter to run this script.
+  
+  
+# This line compiles the C source file specified by $CFILE.
+#   - gcc: The GNU C compiler command.
+#   - -c: Flag to compile into object file only (not executable).
+#   - $CFILE: The C source file to be compiled (variable name).
+gcc -c $CFILE 

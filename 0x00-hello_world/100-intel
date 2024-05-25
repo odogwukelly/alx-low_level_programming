@@ -1,2 +1,5 @@
 #!/bin/bash
+
+# The command gcc -S -masm=intel $CFILE compiles a C source file specified by $CFILE and generates assembly code using the Intel assembly syntax.
+
 gcc -S -masm=intel $CFILE

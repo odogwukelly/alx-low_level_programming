@@ -1,2 +1,4 @@
 #!/bin/bash
+
+# A simple Bash script that uses the GCC compiler to preprocess a C file.
 gcc $CFILE -E -o c

@@ -1,2 +1,4 @@
 #!/bin/bash
+
+# The command gcc -S $CFILE compiles a C source file specified by $CFILE and generates assembly code instead of an object file.
 gcc -S $CFILE

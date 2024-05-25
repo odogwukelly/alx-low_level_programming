@@ -1,2 +1,4 @@
 #!/bin/bash
+
+# compile and name the compiled file
 gcc $CFILE -o cisfun
